@@ -1,0 +1,46 @@
+#intro {
+  background: url(../assets/images/bg-intro.svg) no-repeat center center/cover;
+
+  #info {
+    width: 1040px;
+    margin-block: 120px 57px;
+    margin-inline: auto;
+    text-align: center;
+
+    header {
+      width: 680px;
+      margin-inline: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 56px;
+
+      .avatar img {
+        width: 112px;
+        padding: 6px;
+        border-radius: 50%;
+        border: 2px solid var(--red);
+      }
+
+      .text span {
+        font: var(--subtitle);
+        margin-bottom: 8px;
+
+        span {
+          color: var(--red);
+        }
+      }
+
+      h1 {
+        font: var(--title-lg);
+        color: var(--gray-600);
+        margin-bottom: 20px;
+      }
+
+      p {
+        font: var(--text-sm);
+        color: var(--gray-400);
+        margin-bottom: 80px;
+      }
+    }
+  }
+}
