@@ -20,7 +20,7 @@
 
   --asap: 'Asap', sans-serif;
   --title-lg: bold 56px/120% var(--asap);
-  --title-mg: bold 24px/120% var(--asap);
+  --title-md: bold 24px/120% var(--asap);
   --title-sm: bold 16px/120% var(--asap);
 
   --inconsolata: 'Inconsolata', sans-serif;
