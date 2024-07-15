@@ -59,6 +59,10 @@
         gap: 8px;
       }
     }
+  }
 
+  .arrow-down {
+    text-align: center;
+    margin-block: 94px 57px;
   }
 }
