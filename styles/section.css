@@ -116,3 +116,48 @@
     }
   }
 }
+
+#services {
+  background: var(--gray-100);
+  text-align: center;
+  padding-block: 88px 120px;
+
+  header {
+    margin-bottom: 56px;  
+
+    span {
+      font: var(--subtitle);
+      color: var(--red);
+    }
+    
+    h2 {
+      font: var(--title-md);
+      color: var(--gray-600);
+      margin-top: 8px;
+    }
+  }
+
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  
+    .card {
+      width: 288px;
+      padding: 20px;
+      border-radius: 12px;
+      border: 2px solid var(--gray-200);
+      text-align: left;
+
+      img {
+        margin-bottom: 20px;
+      }
+
+      h3 {
+        font: var(--title-sm);
+        color: var(--gray-600);
+        margin-bottom: 8px;
+      }
+    }
+  }
+}
