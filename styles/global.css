@@ -43,6 +43,11 @@ h3 {
   font: inherit;
 }
 
+a {
+  text-decoration: none;
+  font: inherit;
+}
+
 img {
   max-width: 100%
 }

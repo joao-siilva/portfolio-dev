@@ -161,3 +161,63 @@
     }
   }
 }
+
+#contacts {
+  background: url(../assets/images/bg-contacts.svg) no-repeat center center/cover;
+  text-align: center;
+  padding-block: 128px 200px;
+
+  header {
+    margin-bottom: 48px;
+    
+    span {
+      font: var(--subtitle);
+      color: var(--purple);
+    }
+
+    h2 {
+      font: var(--title-md);
+      color: var(--gray-600);
+      margin-block: 8px;
+    }
+
+    p {
+      color: var(--gray-500);
+    }
+  }
+
+  .links {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+  
+    .link {
+      width: 400px;
+      padding: 20px;
+      background: var(--gray-300);
+      border-radius: 8px;
+      
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+
+      .social {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        
+        img {
+          width: 26px;
+          height: 26px;
+        }
+
+        a {
+          font: var(--text-md);
+          color: var(--gray-500);
+        }
+      }
+    }
+  }
+}
