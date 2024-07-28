@@ -1,0 +1,68 @@
+#intro {
+  background: url(../assets/images/bg-intro.svg) no-repeat center center/cover;
+
+  #info {
+    width: 104rem;
+    margin-block: 12rem 5.7rem;
+    margin-inline: auto;
+    text-align: center;
+
+    header {
+      width: 68rem;
+      margin-inline: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 5.6rem;
+
+      .avatar img {
+        width: 11.2rem;
+        padding: .6rem;
+        border-radius: 50%;
+        border: 2px solid var(--red);
+      }
+
+      .text span {
+        font: var(--subtitle);
+        margin-bottom: .8rem;
+
+        span {
+          color: var(--red);
+        }
+      }
+
+      h1 {
+        font: var(--title-lg);
+        color: var(--gray-600);
+        margin-bottom: 2rem;
+      }
+
+      p {
+        font: var(--text-sm);
+        color: var(--gray-400);
+        margin-bottom: 8rem;
+      }
+    }
+
+    .tags {
+      display: flex;
+      justify-content: center;
+      gap: 1.6rem;
+      
+      .tag {
+        background: var(--gray-300);
+        border-radius: 99.9rem;
+        padding-block: .8rem;
+        padding-inline: 1.6rem;
+
+        display: flex;
+        align-items: center;
+        gap: .8rem;
+      }
+    }
+  }
+
+  .arrow-down {
+    text-align: center;
+    margin-block: 9.4rem 5.7rem;
+  }
+}

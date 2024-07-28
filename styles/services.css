@@ -1,0 +1,44 @@
+#services {
+  background: var(--gray-100);
+  text-align: center;
+  padding-block: 8.8rem 12rem;
+
+  header {
+    margin-bottom: 5.6rem;  
+
+    span {
+      font: var(--subtitle);
+      color: var(--red);
+    }
+    
+    h2 {
+      font: var(--title-md);
+      color: var(--gray-600);
+      margin-top: .8rem;
+    }
+  }
+
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 2.4rem;
+  
+    .card {
+      width: 28.8rem;
+      padding: 2rem;
+      border-radius: 1.2rem;
+      border: 1px solid var(--gray-200);
+      text-align: left;
+
+      img {
+        margin-bottom: 2rem;
+      }
+
+      h3 {
+        font: var(--title-sm);
+        color: var(--gray-600);
+        margin-bottom: .8rem;
+      }
+    }
+  }
+}

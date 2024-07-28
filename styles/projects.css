@@ -1,0 +1,49 @@
+#projects {
+  margin-block: 7.2rem 14.4rem;
+  text-align: center;
+
+  header {
+    margin-bottom: 5.6rem;
+    
+    span {
+      font: var(--subtitle);
+      color: var(--red);
+      margin-bottom: .8rem;
+    }
+
+    h2 {
+      font: var(--title-md);
+      color: var(--gray-600);
+      margin-bottom: 5.6rem;
+    }
+  }
+
+  .cards {
+    width: 104rem;
+    margin-inline: auto;
+    display: grid;
+    gap: 2.4rem;
+    grid-template-columns: repeat(3, 1fr);
+
+    .card {
+      width: 33rem;
+      padding: 1.2rem;
+      background: var(--gray-300);
+      border-radius: 1.2rem;
+      text-align: left;
+
+      img {
+        width: 100%;
+        border-radius: .8rem;
+        object-fit: cover;
+        margin-bottom: 2rem;
+      }
+
+      h3 {
+        font: var(--title-sm);
+        color: var(--gray-600);
+        margin-bottom: .8rem;
+      }
+    }
+  }
+}
