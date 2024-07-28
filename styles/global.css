@@ -5,6 +5,8 @@
 }
 
 :root {
+  font-size: 62.5%;
+
   --red: #E3646E;
   --purple: #BB72E9;
   --blue: #3996DB;
@@ -19,16 +21,16 @@
   --gray-600: #E2E4E9;
 
   --asap: 'Asap', sans-serif;
-  --title-lg: bold 56px/120% var(--asap);
-  --title-md: bold 24px/120% var(--asap);
-  --title-sm: bold 16px/120% var(--asap);
+  --title-lg: bold 5.6rem/120% var(--asap);
+  --title-md: bold 2.4rem/120% var(--asap);
+  --title-sm: bold 1.6rem/120% var(--asap);
 
   --inconsolata: 'Inconsolata', sans-serif;
-  --subtitle: 400 20px/120% var(--inconsolata);
+  --subtitle: 400 2rem/120% var(--inconsolata);
   
   --maven: 'Maven Pro', sans-serif;
-  --text-md: 400 16px/140% var(--maven);
-  --text-sm: 400 14px/140% var(--maven);
+  --text-md: 400 1.6rem/140% var(--maven);
+  --text-sm: 400 1.4rem/140% var(--maven);
 }
 
 body {

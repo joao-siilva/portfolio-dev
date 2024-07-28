@@ -2,28 +2,28 @@
   background: url(../assets/images/bg-intro.svg) no-repeat center center/cover;
 
   #info {
-    width: 1040px;
-    margin-block: 120px 57px;
+    width: 104rem;
+    margin-block: 12rem 5.7rem;
     margin-inline: auto;
     text-align: center;
 
     header {
-      width: 680px;
+      width: 68rem;
       margin-inline: auto;
       display: flex;
       flex-direction: column;
-      gap: 56px;
+      gap: 5.6rem;
 
       .avatar img {
-        width: 112px;
-        padding: 6px;
+        width: 11.2rem;
+        padding: .6rem;
         border-radius: 50%;
         border: 2px solid var(--red);
       }
 
       .text span {
         font: var(--subtitle);
-        margin-bottom: 8px;
+        margin-bottom: .8rem;
 
         span {
           color: var(--red);
@@ -33,85 +33,85 @@
       h1 {
         font: var(--title-lg);
         color: var(--gray-600);
-        margin-bottom: 20px;
+        margin-bottom: 2rem;
       }
 
       p {
         font: var(--text-sm);
         color: var(--gray-400);
-        margin-bottom: 80px;
+        margin-bottom: 8rem;
       }
     }
 
     .tags {
       display: flex;
       justify-content: center;
-      gap: 16px;
+      gap: 1.6rem;
       
       .tag {
         background: var(--gray-300);
-        border-radius: 999px;
-        padding-block: 8px;
-        padding-inline: 16px;
+        border-radius: 99.9rem;
+        padding-block: .8rem;
+        padding-inline: 1.6rem;
 
         display: flex;
         align-items: center;
-        gap: 8px;
+        gap: .8rem;
       }
     }
   }
 
   .arrow-down {
     text-align: center;
-    margin-block: 94px 57px;
+    margin-block: 9.4rem 5.7rem;
   }
 }
 
 #projects {
-  margin-block: 72px 144px;
+  margin-block: 7.2rem 14.4rem;
   text-align: center;
 
   header {
-    margin-bottom: 56px;
+    margin-bottom: 5.6rem;
     
     span {
       font: var(--subtitle);
       color: var(--red);
-      margin-bottom: 8px;
+      margin-bottom: .8rem;
     }
 
     h2 {
       font: var(--title-md);
       color: var(--gray-600);
-      margin-bottom: 56px;
+      margin-bottom: 5.6rem;
     }
   }
 
   .cards {
-    width: 1040px;
+    width: 104rem;
     margin-inline: auto;
     display: grid;
-    gap: 24px;
+    gap: 2.4rem;
     grid-template-columns: repeat(3, 1fr);
 
     .card {
-      width: 330px;
-      padding: 12px;
+      width: 33rem;
+      padding: 1.2rem;
       background: var(--gray-300);
-      border-radius: 12px;
+      border-radius: 1.2rem;
       text-align: left;
 
       img {
         width: 100%;
-        border-radius: 8px;
+        border-radius: .8rem;
         object-fit: cover;
-        margin-bottom: 20px;
+        margin-bottom: 2rem;
       }
 
       h3 {
         font: var(--title-sm);
         color: var(--gray-600);
-        margin-bottom: 8px;
+        margin-bottom: .8rem;
       }
     }
   }
@@ -120,10 +120,10 @@
 #services {
   background: var(--gray-100);
   text-align: center;
-  padding-block: 88px 120px;
+  padding-block: 8.8rem 12rem;
 
   header {
-    margin-bottom: 56px;  
+    margin-bottom: 5.6rem;  
 
     span {
       font: var(--subtitle);
@@ -133,30 +133,30 @@
     h2 {
       font: var(--title-md);
       color: var(--gray-600);
-      margin-top: 8px;
+      margin-top: .8rem;
     }
   }
 
   .cards {
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 2.4rem;
   
     .card {
-      width: 288px;
-      padding: 20px;
-      border-radius: 12px;
-      border: 2px solid var(--gray-200);
+      width: 28.8rem;
+      padding: 2rem;
+      border-radius: 1.2rem;
+      border: 1px solid var(--gray-200);
       text-align: left;
 
       img {
-        margin-bottom: 20px;
+        margin-bottom: 2rem;
       }
 
       h3 {
         font: var(--title-sm);
         color: var(--gray-600);
-        margin-bottom: 8px;
+        margin-bottom: .8rem;
       }
     }
   }
@@ -165,10 +165,10 @@
 #contacts {
   background: url(../assets/images/bg-contacts.svg) no-repeat center center/cover;
   text-align: center;
-  padding-block: 128px 200px;
+  padding-block: 12.8rem 20rem;
 
   header {
-    margin-bottom: 48px;
+    margin-bottom: 4.8rem;
     
     span {
       font: var(--subtitle);
@@ -178,7 +178,7 @@
     h2 {
       font: var(--title-md);
       color: var(--gray-600);
-      margin-block: 8px;
+      margin-block: .8rem;
     }
 
     p {
@@ -190,27 +190,27 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 16px;
+    gap: 1.6rem;
   
     .link {
-      width: 400px;
-      padding: 20px;
+      width: 40rem;
+      padding: 2rem;
       background: var(--gray-300);
-      border-radius: 8px;
+      border-radius: .8rem;
       
       display: flex;
       justify-content: space-between;
       align-items: center;
-      gap: 12px;
+      gap: 1.2rem;
 
       .social {
         display: flex;
         align-items: center;
-        gap: 12px;
+        gap: 1.2rem;
         
         img {
-          width: 26px;
-          height: 26px;
+          width: 2.6rem;
+          height: 2.6rem;
         }
 
         a {
