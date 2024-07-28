@@ -57,3 +57,14 @@
     }
   }
 }
+
+@media (width <= 80em) {
+  #contacts {    
+    max-width: 30rem;
+    margin-inline: auto;
+
+    .link {
+      max-width: 30rem;
+    } 
+  }
+}
